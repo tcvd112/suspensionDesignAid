@@ -1,0 +1,31 @@
+Suspenion Design Aid 
+Created by Timm Von Derau
+
+Directions
+ - Check the FSAE specific design restrictions (wheel base, track, etc) and be 
+ sure that the design code reflects those.
+ - Modify the global variables only. 90% of them are in the "SuspensionCalcs.m"
+ file. The rest are in their respective function M files.
+ - Open Matlab. Navigate to the folder holding the files. ALL FILES MUST BE
+ TOGETHER IN THE FOLDER. Type "run suspensionCalcs.m" (Caps matters)
+ - Profit. 
+ 
+ Equations come from the book "Race Car Design" by Derek Seward. The equations
+ are not derived and in the "solved" form (IE, the moments solved for FEA are
+ presented as [Force interested in] = [rest of the equation]. There is no need
+ to solve for anything. They can easily be deconstructed though to learn how 
+ they came about. 
+ 
+ I will likely improve on this in the coming months. There are more suspension 
+ parameters to work with, and I hate excel and am too lazy for hand calcs 
+ unless they are simple. I want to add parts from Milken's book, along with 
+ more from Seward's. Tune to win will likely be included as well when able.
+ 
+ Watch this space.
+ 
+ Vroom Vroom. 
+ 
+ 
+ Good luck, 
+ 
+ tvd
